@@ -1,0 +1,1 @@
+package com.amir.weathora.domain.weatherimport com.amir.weathora.data.WeatherDatadata class WeatherInfo(    // we use mappers here    val weatherDataPerDay : Map<Int, List<WeatherData>>,    val currentWeatherData : WeatherData?)
