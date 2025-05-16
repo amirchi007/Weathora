@@ -1,0 +1,1 @@
+package com.amir.weathora.dataimport com.squareup.moshi.Jsondata class WeatherDto (    @field:Json(name = "hourly")    val weatherData : WeatherDtoData)

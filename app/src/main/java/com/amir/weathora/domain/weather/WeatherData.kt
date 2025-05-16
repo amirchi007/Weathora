@@ -1,1 +1,1 @@
-package com.amir.weathora.domain.weatherimport java.time.LocalTimedata class WeatherData(    val time: LocalTime,    val temperatureCelsius: Float,    val pressure: Float,    val windSpeed: Float,    val humidity: Float,    val weatherType: WeatherType)
+package com.amir.weathora.domain.weatherimport java.time.LocalDateTimedata class WeatherData(    val time: LocalDateTime,    val temperatureCelsius: Float,    val pressure: Float,    val windSpeed: Float,    val humidity: Float,    val weatherType: WeatherType)

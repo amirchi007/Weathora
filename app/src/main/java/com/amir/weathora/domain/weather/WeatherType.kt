@@ -7,10 +7,6 @@ sealed class WeatherType(
     val weatherDesc: String,
     @DrawableRes val iconRes: Int
 ) {
-    object test : WeatherType(
-        weatherDesc = "test",
-        iconRes = R.drawable.ic_launcher_background
-    )
     object ClearSky : WeatherType(
         weatherDesc = "Clear sky",
         iconRes = R.drawable.ic_sunny
