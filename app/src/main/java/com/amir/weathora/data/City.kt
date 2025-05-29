@@ -1,0 +1,1 @@
+package com.amir.weathora.datadata class City(    val name: String,    val latitude: Double,    val longitude: Double)
